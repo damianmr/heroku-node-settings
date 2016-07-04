@@ -1,0 +1,26 @@
+{
+  "name": "heroku-node-settings",
+  "version": "1.0.2",
+  "description": "Prevent your Heroku Dyno from killing your Node app because of high memory consumption.",
+  "main": "index.js",
+  "bin": {
+    "heroku-node-settings": "heroku-node-settings.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianmr/heroku-node-settings.git"
+  },
+  "keywords": [
+    "heroku",
+    "node",
+    "dyno",
+    "memory",
+    "settings"
+  ],
+  "author": "Damian Mendez Romera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damianmr/heroku-node-settings/issues"
+  },
+  "homepage": "https://github.com/damianmr/heroku-node-settings#readme"
+}

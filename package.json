@@ -1,7 +1,7 @@
 {
   "name": "heroku-node-settings",
-  "version": "1.0.2",
-  "description": "Prevent your Heroku Dyno from killing your Node app because of high memory consumption.",
+  "version": "1.1.0",
+  "description": "Helps you prevent your Heroku Dyno from killing your Node app because of high memory consumption.",
   "main": "index.js",
   "bin": {
     "heroku-node-settings": "heroku-node-settings.sh"

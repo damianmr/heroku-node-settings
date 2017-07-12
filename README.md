@@ -33,7 +33,6 @@ Essentially, the script uses the following V8 flags to start node. The values of
 
 - `--max_semi_space_size`: Sets how much memory can new memory allocations take (in `megabytes` ). This flag used to be called `--max_new_space_size` (see https://codereview.chromium.org/271843005).
 - `--max_old_space_size`: Sets the upper limit of memory node can use. The problem is that if your app reaches this value then Node will crash (memory allocation errors will start to show in the logs).
-- `--max_executable_size`: Max size of executable memory. It is smaller than the `max_old_space_size` so that your Node app will never reach the limit.
 
 Also note that, although these settings constrain the memory usage, there are other elements that can make the whole process use more memory that what these flags set (buffers, files, etc.).
 

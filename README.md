@@ -45,3 +45,4 @@ Also note that, although these settings constrain the memory usage, there are ot
   - https://groups.google.com/forum/#!topic/nodejs/sxkqPtC-3Jk
   - http://stackoverflow.com/questions/30252905/nodejs-decrease-v8-garbage-collector-memory-usage
   - http://erikcorry.blogspot.com.ar/2012/11/memory-management-flags-in-v8.html
+  - http://fiznool.com/blog/2016/10/01/running-a-node-dot-js-app-in-a-low-memory-environment/
